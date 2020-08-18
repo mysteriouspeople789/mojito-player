@@ -1,0 +1,40 @@
+#vol {
+	width: 50vw;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#player {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#heading, #subtitles, #alt-subtitles {
+	display: block;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+.seekbar {
+	display: block;
+	text-align: center;
+}
+
+.buttons {
+	text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+	#vol {
+		width: 100vw	
+	}
+
+	#player {
+		width: 100%;
+
+	}
+}

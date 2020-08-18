@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hmm</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<!--<h1>This website is dedicated to Chandrahas for singing such a great song</h1>-->
+	<!--<h1 id="heading">Get rickrolled</h1>-->
+	<h1 id="heading">Mojito</h1>
+	<div id="player"></div>
+	<br>
+	<div id="subtitles"></div>
+	<div id="alt-subtitles"></div>
+	<form id="rickrollForm" action="main.js" method="post" onsubmit="return false">
+		<!--<label for="subtitleForm" id="subtitleForm">Subtitles</label>
+		<input type="checkbox" name="subtitleForm" value="subtitle" id="subtitleForm">
+		<label for="repeatForm" id="repeatForm">Repeat</label>
+		<input type="checkbox" name="repeatForm" value="repeat" id="repeatForm">-->
+		<div class="seekbar">
+			<label for="vol">Seek to</label>
+  		<input type="range" id="vol" name="vol" min="0" max="188" onmouseup="playVid()" value="0">
+  		<!--Rickroll = 212, Mojito = 188-->
+		</div>
+	</form>
+	<div class="buttons">
+		<button type='button' onclick="playVid()" id="play">Play</button>
+		<button type='button' onclick="pauseVid()" id="pause">Pause</button> 
+	</div>
+	
+</body>
+</html>
