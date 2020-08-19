@@ -39,7 +39,7 @@ function onPlayerStateChange(event) {
 }
 
 let subtitles = {
-  17: "",
+  1: "",
   18: "ma fan gei wo de ai ren lai yi bei Mojito",
   23: "wo xi huan yue du ta wei xun shi de yan mou",
   27: "er wo de ka fei",
